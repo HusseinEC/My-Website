@@ -25,8 +25,31 @@ html, body {
 
     &:hover {
         background-color: #191919;
-        border: #191919;
+        border: 1px solid #191919;
         color: #F0EFE9;
+    }
+
+}
+
+.btn-black {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    i {
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #FFFFFF;
+        border: 1px solid #191919;
+        color: #191919;
     }
 
 }
@@ -48,10 +71,38 @@ html, body {
 
     &:hover {
         background-color: #191919;
-        border: #191919;
+        border: 1px solid #191919;
         color: #F0EFE9;
     }
 
+}
+
+.section-title {
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+    @media (min-width: 768px) {
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+
+    p {
+        color: #F94D1C;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #191919;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+    }
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -232,6 +283,69 @@ header {
             @media (min-width: 1200px) {
                 display: block;
             }
+        }
+    }
+}
+
+.project-and-case {
+    .container {
+        .section-title {
+            text-align: center;
+        }
+
+        .project-and-cases {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+
+            @media (min-width: 768px) {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .project {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr auto;
+            color: #191919;
+            text-decoration: none;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                h3 {
+                    font-family: "DM Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    padding-top: 35px;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid #DAD9D3;
+                }
+
+                .readmore {
+                    padding: 15px;
+                    display: block;
+                    text-align: right;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #191919;
+
+                    i {
+                        margin-left: 3px;
+                    }
+                }
+
+                &:hover .readmore {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .center-content {
+            margin-top: 50px;
+            margin-bottom: 90px;
         }
     }
 }
