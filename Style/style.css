@@ -196,6 +196,14 @@ header .container .menu .main-menu .btn-login {
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+.showcase .background-lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 .showcase .container {
   display: flex;
@@ -314,4 +322,36 @@ header .container .menu .main-menu .btn-login {
 .project-and-case .container .center-content {
   margin-top: 50px;
   margin-bottom: 90px;
+}
+
+.Newsletter {
+  background-color: #F0EFE9;
+  position: relative;
+  padding: 80px;
+  padding-bottom: 80px;
+}
+.Newsletter .background-wavy-right {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.Newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Newsletter .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.Newsletter .container form input {
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
 }
