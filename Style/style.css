@@ -330,6 +330,13 @@ header .container .menu .main-menu .btn-login {
   border: 1px solid #191919;
   color: #F0EFE9;
 }
+@media (max-width: 768px) {
+  .features .container {
+    margin-left: 100px;
+    display: inline-block;
+    text-align: center;
+  }
+}
 .features .content {
   display: grid;
   grid-template-columns: 1fr;
@@ -343,6 +350,13 @@ header .container .menu .main-menu .btn-login {
 @media (min-width: 768px) {
   .features .content {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .features .content {
+    padding-top: 40px;
+    margin-right: 110px;
+    text-align: center;
   }
 }
 @media (max-width: 1400px) {

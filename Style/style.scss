@@ -360,6 +360,11 @@ header {
                 color: #F0EFE9;
             }
         }
+        @media (max-width: 768px) {
+            margin-left: 100px;
+            display: inline-block;
+            text-align: center;
+        }
     }
 
     .content {
@@ -373,7 +378,13 @@ header {
         gap: 30px;
         
         @media (min-width: 768px) {
-            grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 768px) {
+        padding-top: 40px;
+        margin-right: 110px;
+        text-align: center;
         }
     }
 
