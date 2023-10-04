@@ -393,6 +393,137 @@ header {
     }
 }
 
+.company {
+    .container {
+        position: relative;
+        font-family: "DM Sans", sans-serif;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        justify-items: start;
+
+        .founder {
+            position: relative;
+
+            .founder-pic {
+                position: relative;
+                z-index: -1;
+            }
+
+            .wavy-lines {
+                position: absolute;
+                width: 35%;
+                top: 60px;
+                left: 0px;
+            }
+
+            h2 {
+                position: absolute;
+                top: 400px;
+                left: -25px;
+                font-size: 22px;
+                z-index: 1;
+                color: #191919;
+                font-weight: 700;
+            }
+
+            h3 {
+                position: absolute;
+                top: 404px;
+                right: 270px;
+                color: #F94D1C;
+                font-size: 18px;
+                z-index: 1;
+                font-weight: 700;
+            }
+
+            p {
+                position: absolute;
+                top: 440px;
+                left: -25px;
+                z-index: 1;
+                color: #191919;
+                width: 300px;
+                font-weight: 500;
+            }
+
+            .founder-box {
+                position: absolute;
+                margin-left: -40px;
+                margin-top: -200px;
+                height: 160px;
+                width: 325px;
+                background-color: #BEEBFF;
+                z-index: 0;
+            }
+        }
+
+        .content {
+            display: inline-block;
+            position: absolute;
+            padding-left: 500px;
+            margin-left: 200px;
+            padding-right: 150px;
+            top: -125px;
+            color: #191919;
+            text-decoration: none;
+            text-align: left;
+
+            .section-title3 {
+                padding-top: 70px;
+                padding-bottom: 30px;
+            
+                @media (min-width: 768px) {
+                    padding-top: 120px;
+                }
+            
+                p {
+                    color: #F94D1C;
+                    margin-bottom: 10px;
+                }
+            
+                h2 {
+                    color: #191919;
+                    font-family: "DM Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: 45px;
+                }
+            }
+
+            .btns {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 60px;
+
+                .intro-video {
+                    a {
+                        color: #191919;
+                        margin-right: 210px;
+                        margin-top: -10px;
+                        background-color: transparent;
+                        border: 1px solid #191919;
+                        text-decoration: none;
+                        padding: 16px 22px;
+                        border-radius: 50px;
+
+                        &:hover {
+                            color: #F0EFE9;
+                            background-color: #191919;
+                        }
+                    }
+                }
+            }
+
+            .intro-video-text {
+                position: absolute;
+                right: 270px;
+                bottom: -14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
 .project-and-case {
     .container {
         .section-title {
