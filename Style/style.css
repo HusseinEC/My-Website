@@ -471,11 +471,47 @@ header .container .menu .main-menu .btn-login {
   color: #F0EFE9;
   background-color: #191919;
 }
+@media (max-width: 1400px) {
+  .company .container .content .btns .intro-video {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1400px) {
+  .company .container .content .btns {
+    display: block;
+    margin-top: -40px;
+  }
+}
 .company .container .content .intro-video-text {
   position: absolute;
   right: 270px;
   bottom: -14px;
   font-weight: 500;
+}
+@media (max-width: 1400px) {
+  .company .container .content .intro-video-text {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .company .container .content .intro-video-text {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .company .container .content {
+    display: none;
+  }
+}
+@media (max-width: 1400px) {
+  .company .container {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .company .container {
+    margin-left: 100px;
+  }
 }
 
 .project-and-case .container .section-title {

@@ -511,7 +511,16 @@ header {
                             background-color: #191919;
                         }
                     }
+
+                    @media (max-width: 1400px) {
+                        margin-top: 40px;
+                    }
                 }
+
+                @media (max-width: 1400px) {
+                    display: block;
+                    margin-top: -40px;
+                }                   
             }
 
             .intro-video-text {
@@ -519,7 +528,27 @@ header {
                 right: 270px;
                 bottom: -14px;
                 font-weight: 500;
+
+                @media (max-width: 1400px) {
+                    margin-right: 20px;
+                }
+
+                @media (max-width: 1200px) {
+                    margin-right: 0px;
+                }
             }
+
+            @media (max-width: 768px) {
+                display: none;                
+            }
+        }
+
+        @media (max-width: 1400px) {
+            padding-bottom: 100px;               
+        }
+
+        @media (max-width: 768px) {
+            margin-left: 100px;
         }
     }
 }
