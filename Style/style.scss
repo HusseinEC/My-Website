@@ -853,6 +853,82 @@ header {
     }
 }
 
+.article-news {
+    .container {
+        .section-title {
+            @media (max-width: 1000px) {
+                text-align: center;
+            }
+        }
+        .article-btn {
+            text-align: end;
+            margin-top: -120px;
+            padding-bottom: 35px;
+
+            @media (max-width: 1000px) {
+                display: none;
+            }
+        }
+
+        .articles {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            
+            h3 {
+                font-size: 16px;
+                padding-top: 20px;
+            }
+
+            h2 {
+                font-size: 22px;
+                width: 300px;
+                padding-top: 10px;
+                font-weight: 700;
+                font-family: "DM Sans", sans-serif;
+            }
+
+            p {
+                font-size: 16px;
+                padding-bottom: 60px;
+            }
+
+            .date {
+                position: absolute;
+                text-align: center;
+                color: #191919;
+                background-color: #F9D783;
+                width: 50px;
+                z-index: 1;
+                top: 16px;
+                margin-left: 16px;
+                padding-top: 10px;
+                padding-bottom: 5px;
+            }
+
+            @media (max-width: 1000px) {
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: none;
+                justify-content: center;
+
+                p {
+                    width: 400px;
+                }
+            }
+        }
+
+        .carousel {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 10px;
+            padding-bottom: 90px;
+        }
+    }
+}
+
 .Newsletter {
     background-color: #F0EFE9;
     position: relative;
