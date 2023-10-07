@@ -80,6 +80,8 @@ html, body {
 .section-title p {
   color: #F94D1C;
   margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .section-title h2 {
   color: #191919;
@@ -794,6 +796,224 @@ header .container .menu .main-menu .btn-login {
   margin-bottom: 90px;
 }
 
+.meet-our-team {
+  background-color: rgba(240, 208, 130, 0.93);
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .section-title {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .section-title {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .section-title {
+    width: 600px;
+  }
+}
+.meet-our-team .container .team-btn {
+  text-align: end;
+  margin-top: -130px;
+  padding-bottom: 35px;
+}
+.meet-our-team .container .team-btn i {
+  padding-left: 5px;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .team-btn {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .team-btn {
+    margin-right: -150px;
+  }
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .team-btn {
+    margin-right: -80px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .team-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0px;
+  }
+}
+.meet-our-team .container .members {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.meet-our-team .container .members h2 {
+  font-family: "DM Sans", sans-serif;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.meet-our-team .container .members p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(25, 25, 25, 0.7);
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .members {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .members {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 120px;
+  }
+}
+.meet-our-team .container .carousel {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 10px;
+  padding-bottom: 90px;
+}
+.meet-our-team .container .Testimonial {
+  background-color: #FFFFFF;
+}
+.meet-our-team .container .Testimonial .section-title {
+  text-align: center;
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .Testimonial .section-title {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .Testimonial .section-title {
+    margin-left: -50px;
+  }
+}
+.meet-our-team .container .Testimonial .reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 200px;
+  padding-left: 100px;
+}
+.meet-our-team .container .Testimonial .reviews .stars {
+  padding-bottom: 30px;
+  color: #F94D1C;
+}
+.meet-our-team .container .Testimonial .reviews img {
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+}
+.meet-our-team .container .Testimonial .reviews p {
+  text-align: left;
+  width: 290px;
+  padding-bottom: 30px;
+}
+.meet-our-team .container .Testimonial .reviews h2 {
+  font-size: 22px;
+}
+.meet-our-team .container .Testimonial .reviews h3 {
+  font-size: 16px;
+  color: #F94D1C;
+  font-weight: normal;
+}
+.meet-our-team .container .Testimonial .reviews .review-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.meet-our-team .container .Testimonial .reviews .review-1 h2 {
+  margin-left: -200px;
+  margin-top: 10px;
+}
+.meet-our-team .container .Testimonial .reviews .review-1 h3 {
+  margin-left: 90px;
+  margin-top: -30px;
+  width: 200px;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .Testimonial .reviews .review-1 {
+    padding-bottom: 60px;
+    margin-top: -20px;
+  }
+}
+.meet-our-team .container .Testimonial .reviews .review-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.meet-our-team .container .Testimonial .reviews .review-2 h2 {
+  margin-left: -200px;
+  margin-top: 10px;
+}
+.meet-our-team .container .Testimonial .reviews .review-2 h3 {
+  margin-left: 90px;
+  margin-top: -30px;
+  width: 200px;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .Testimonial .reviews .review-2 {
+    padding-bottom: 60px;
+    margin-top: -20px;
+  }
+}
+.meet-our-team .container .Testimonial .reviews .review-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.meet-our-team .container .Testimonial .reviews .review-3 h2 {
+  margin-left: -220px;
+  margin-top: 10px;
+}
+.meet-our-team .container .Testimonial .reviews .review-3 h3 {
+  margin-left: 90px;
+  margin-top: -30px;
+  width: 220px;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .Testimonial .reviews .review-3 {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .Testimonial .reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 250px;
+  }
+}
+@media (max-width: 990px) {
+  .meet-our-team .container .Testimonial .reviews {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .Testimonial .reviews {
+    margin-left: 50px;
+  }
+}
+.meet-our-team .container .all-reviews-btn {
+  text-align: center;
+  margin-top: -100px;
+  padding-bottom: 200px;
+}
+
 @media (max-width: 1000px) {
   .article-news .container .section-title {
     text-align: center;
@@ -803,6 +1023,9 @@ header .container .menu .main-menu .btn-login {
   text-align: end;
   margin-top: -120px;
   padding-bottom: 35px;
+}
+.article-news .container .article-btn i {
+  padding-left: 5px;
 }
 @media (max-width: 1000px) {
   .article-news .container .article-btn {
@@ -829,6 +1052,7 @@ header .container .menu .main-menu .btn-login {
 .article-news .container .articles p {
   font-size: 16px;
   padding-bottom: 60px;
+  color: rgba(25, 25, 25, 0.7);
 }
 .article-news .container .articles .date {
   position: absolute;

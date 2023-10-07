@@ -89,6 +89,8 @@ html, body {
     p {
         color: #F94D1C;
         margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
     h2 {
@@ -853,6 +855,233 @@ header {
     }
 }
 
+.meet-our-team {
+    background-color: rgba(240,208,130,0.93 );
+    .container {
+        .section-title {
+            @media (max-width: 1200px) {
+                margin-left: 50px;
+            }
+
+            @media (max-width: 990px) {
+                margin-left: 0px;
+            }
+
+            @media (max-width: 768px) {
+                width: 600px;
+            }
+        }
+         
+        .team-btn {
+            text-align: end;
+            margin-top: -130px;
+            padding-bottom: 35px;
+
+            i {
+                padding-left: 5px;
+            }
+
+            @media (max-width: 1200px) {
+                margin-right: 50px;
+            }
+
+            @media (max-width: 990px) {
+                margin-right: -150px;
+            }
+
+            @media (max-width: 990px) {
+                margin-right: -80px;
+            }
+
+            @media (max-width: 768px) {
+                text-align: center;
+                margin-top: 20px;
+                padding-bottom: 0px;
+            }
+        }
+
+        .members {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 30px;
+            padding-top: 90px;
+            padding-bottom: 50px;
+
+            h2 {
+                font-family: "DM Sans", sans-serif;
+                padding-top: 20px;
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                color: rgba(25,25,25,0.7 );
+            }
+
+
+            @media (max-width: 1200px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                margin-left: 100px;
+            }
+
+            @media (max-width: 990px) {
+                margin-left: 20px;
+            }
+
+            @media (max-width: 768px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                padding-left: 120px;
+            }
+        }
+
+        .carousel {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 10px;
+            padding-bottom: 90px;
+        }
+
+        .Testimonial {
+            background-color: #FFFFFF;
+            .section-title {
+                text-align: center;
+
+                @media (max-width: 990px) {
+                    margin-left: 0px;
+                }
+
+                @media (max-width: 768px) {
+                    margin-left: -50px;
+                }
+            }
+
+            .reviews {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding-bottom: 200px;
+                padding-left: 100px;
+                
+                .stars {
+                    padding-bottom: 30px;
+                    color: #F94D1C;
+                }
+
+                img {
+                    border: 1px solid #FFFFFF;
+                    border-radius: 40px;
+                }
+
+                p {
+                    text-align: left;
+                    width: 290px;
+                    padding-bottom: 30px;
+                }
+
+                h2 {
+                    font-size: 22px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    color: #F94D1C;
+                    font-weight: normal;
+                }
+
+                .review-1 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+
+                    h2 {
+                        margin-left: -200px;
+                        margin-top: 10px;
+                    }
+
+                    h3 {
+                        margin-left: 90px;
+                        margin-top: -30px;
+                        width: 200px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        padding-bottom: 60px;
+                        margin-top: -20px;
+                    }
+                }
+
+                .review-2 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+
+                    h2 {
+                        margin-left: -200px;
+                        margin-top: 10px;
+                    }
+
+                    h3 {
+                        margin-left: 90px;
+                        margin-top: -30px;
+                        width: 200px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        padding-bottom: 60px;
+                        margin-top: -20px;
+                    }
+                }
+
+                .review-3 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+
+                    h2 {
+                        margin-left: -220px;
+                        margin-top: 10px;
+                    }
+
+                    h3 {
+                        margin-left: 90px;
+                        margin-top: -30px;
+                        width: 220px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        margin-top: -20px;
+                    }
+                }
+
+                @media (max-width: 1200px) {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr 1fr;
+                    margin-left: 250px;
+                    
+                }
+
+                @media (max-width: 990px) {
+                    margin-left: 100px;
+                }
+
+                @media (max-width: 768px) {
+                    margin-left: 50px;
+                }
+            }
+        }
+        .all-reviews-btn {
+            text-align: center;
+            margin-top: -100px;
+            padding-bottom: 200px;
+        }
+    }
+}
+
 .article-news {
     .container {
         .section-title {
@@ -864,6 +1093,10 @@ header {
             text-align: end;
             margin-top: -120px;
             padding-bottom: 35px;
+            
+            i {
+                padding-left: 5px;
+            }
 
             @media (max-width: 1000px) {
                 display: none;
@@ -892,6 +1125,7 @@ header {
             p {
                 font-size: 16px;
                 padding-bottom: 60px;
+                color: rgba(25,25,25,0.7 );;
             }
 
             .date {
